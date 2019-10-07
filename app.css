@@ -1,0 +1,43 @@
+#psulogo{
+    max-width: 15%;
+
+}
+
+#events{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('imgs/esports-cover-image.png');
+    margin-top: 2%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#gcalendar{
+    padding-top: 2%;
+}
+
+#nav-bar{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    max-width: 100%;
+}
+
+.carousel-item{
+    height: 768px;
+} 
+.carousel-item img{
+    height: 768px;
+}
+
+#about{
+    border-style: solid;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#eventheader{
+    padding-top: 2%;
+    padding-bottom: -2%;
+    color: white;
+}
