@@ -5,16 +5,24 @@
 
 #events{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('imgs/esports-cover-image.png');
-    margin-top: 2%;
+    margin-top: 0%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    background-attachment: fixed;
 }
 
-#gcalendar{
-    padding-top: 2%;
+#gcalendar-border{
+    padding-top: 1.5%;
+    max-width: 40%;
+    padding-bottom: 1%;
+    border: 1px solid rgba(121, 120, 120, 0.5);
+    background: rgba(100, 100, 100, 0.5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
+
 
 #nav-bar{
     position: absolute;
@@ -30,14 +38,71 @@
     height: 768px;
 }
 
-#about{
-    border-style: solid;
-    margin-top: 2%;
-    text-align: center;
-}
 
-#eventheader{
+#event-header{
     padding-top: 2%;
     padding-bottom: -2%;
     color: white;
 }
+
+#about h1{
+    text-align: center;
+    
+}
+
+#about h4{
+    text-align: center;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+#division-header{
+    text-align: center;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
