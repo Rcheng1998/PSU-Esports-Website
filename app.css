@@ -63,10 +63,32 @@
     text-align: center;
 }
 
+#divisionlogos-row2{
+    padding-top: 1%;
+}
+
+#divisionlogos-row3{
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#sponsor-header{
+    padding-top: 2%;
+    text-align: center;
+}
+
+#sponsors{
+    background-color: rgba(101, 104, 109, 0.247);
+}
+#sponsors img{
+    max-width: 100%;
+    max-height: 60%;
+}
+
 .flip-card {
     background-color: transparent;
-    width: 200px;
-    height: 200px;
+    width: 172px;
+    height: 229px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
@@ -102,7 +124,7 @@
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color: rgba(4, 44, 185, 0.5);
     color: white;
     transform: rotateY(180deg);
   }
