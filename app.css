@@ -115,8 +115,13 @@ body h4{
 }
 
 #uconnect{
-    padding-left: 18%;
+    padding-left: 5%;
     padding-top: 10%;
+}
+
+#sector6{
+    margin-left: 2%;
+    margin-top: 18%;
 }
 
 #social-header{
