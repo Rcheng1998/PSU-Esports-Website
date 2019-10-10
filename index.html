@@ -22,7 +22,7 @@
 <body>
 
 <!--Navbar-->
-<nav id="nav-bar" class="navbar navbar-expand-lg navbar-light navbar-sticky-top">
+<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
   <a class="navbar-brand" href="#">
       <img id="psulogo" src="imgs/psulogo2.png">Esports</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
         <a class="nav-link" href="#">Events</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Divisions</a>
+        <a class="nav-link" href="divisions.html">Divisions</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Merch</a>
@@ -324,9 +324,12 @@
         </div>
     </div>
   </div>
-  <div class="col-sm-8">
+  <div id="divlearnmore" class="col-sm-8 align-middle">
+      <br>
+      <br>
+      <br>
       <p>Want to learn more about our game divisions or apply a game to be one of our offical divisions?</p>
-      <button type="button" class="btn btn-outline-primary">Click Me</button>
+      <a href="divisions.html" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">Click Me</a>
   </div>
   </div>
 </div>
@@ -431,6 +434,15 @@
     <script src="js/parallax.min.js"></script>
 
     <script src="https://use.fontawesome.com/f85be89de6.js"></script>
+
+    <script>
+      $(function () {
+          $(document).scroll(function () {
+              var $nav = $("#mainNavbar");
+              $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+          });
+      });
+  </script>
 
 </body>
 
