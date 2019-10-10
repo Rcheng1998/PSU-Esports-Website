@@ -7,10 +7,40 @@ body h4{
     font-family: 'Lato', sans-serif;
 }
 
+/* ------------ CSS of index.html -------------- */
+
 #psulogo{
     max-width: 15%;
 
 }
+
+.navbar.scrolled {
+    background-color: #293b69bd;
+    transition: background-color 500ms linear;
+}
+
+#mainNavbar{
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+#mainNavbar .nav-link {
+    color:rgb(221, 221, 221);
+}
+
+#mainNavbar .nav-link:hover {
+    font-size: 1.2em;
+    transition: font-size 100ms linear;
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(221, 221, 221);
+    font-size: 1.5rem;
+}
+
+
 
 #events{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('imgs/esports-cover-image.png');
@@ -56,6 +86,8 @@ body h4{
 }
 
 #about{
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color:rgba(35, 64, 109, .1);
 }
 
@@ -90,6 +122,10 @@ body h4{
 #divisionlogos-row3{
     padding-top: 1%;
     padding-bottom: 2%;
+}
+
+#divlearnmore{
+    text-align: center;
 }
 
 #sponsor-header{
@@ -213,4 +249,49 @@ hr.style-one {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0));
+}
+
+/* ------------ CSS of divisions.html -------------- */
+#subNavbar{
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    background-color: #293b69bd;
+}
+#subNavbar .nav-link {
+    color:rgb(221, 221, 221);
+}
+
+#subNavbar .nav-link:hover {
+    font-size: 1.2em;
+    transition: font-size 100ms linear;
+}
+
+#subNavbar .navbar-brand {
+    color: rgb(221, 221, 221);
+    font-size: 1.5rem;
+}
+
+#logosrow{
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#sublogos img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+    margin: 5px;
+}
+
+.inner_div img{
+    max-width: 100%;
+    height: 400px;
+}
+
+#subdiv{
+    padding-bottom: 10%;
 }
