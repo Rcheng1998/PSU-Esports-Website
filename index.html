@@ -13,6 +13,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="app.css">
 
+    <script src="https://kit.fontawesome.com/daefbcdd4b.js" crossorigin="anonymous"></script>
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:500&display=swap" rel="stylesheet">
 
@@ -24,7 +26,7 @@
 <!--Navbar-->
 <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
   <a class="navbar-brand" href="#">
-      <img id="psulogo" src="imgs/psulogo2.png">Esports</a>
+      <img id="psulogo" src="imgs/logo2.png">Esports</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -36,9 +38,14 @@
       <li class="nav-item">
         <a class="nav-link" href="#">About</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Events</a>
-      </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="fall-event-2019.html">Fall Event 2019</a>
+          </div>
+        </li>
       <li class="nav-item">
         <a class="nav-link" href="divisions.html">Divisions</a>
       </li>
@@ -46,7 +53,7 @@
         <a class="nav-link" href="#">Merch</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
   </div>
@@ -148,11 +155,11 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    <img src="imgs/lollogo.jpg" alt="Avatar" style="width:172px;height:229px;">
+                    <img src="imgs/osulogo.jpg" alt="Avatar" style="width:172px;height:229px;">
                   </div>
                   <div class="flip-card-back">
-                    <h1>League of Legends</h1>
-                    <p>Genre: MOBA</p>
+                    <h1>Rhythm Games</h1>
+                    <p>Genre: Rhythm/p>
                     <p>Division Leader:</p>
                   </div>
                 </div>
@@ -314,12 +321,12 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    <img src="imgs/osulogo.jpg" alt="Avatar" style="width:172px;height:229px;">
+                    <img src="imgs/lollogo.jpg" alt="Avatar" style="width:172px;height:229px;">
                 </div>
                 <div class="flip-card-back">
-                  <h1>Rhythm Games</h1>
-                  <p>Genre: Rhythm</p>
-                  <p>Division Leader:</p>
+                  <h1>League of Legends</h1>
+                  <p>Genre: MOBA</p>
+                  <p>LoL Division is now a separate club. Click here</p>
                 </div>
         </div>
     </div>
@@ -395,8 +402,8 @@
     <div class="row">
       <div class="col-sm-8">
         <p><strong>Penn State University Esports</strong></p>
-        <p>Address: 123 Main St</p>
-        <p>Contact: psuesports@gmail.com</p>
+        <p><i class="fas fa-location-arrow"></i> Address: HUB-Robeson Center University Park, PA 16802</p>
+        <p><i class="far fa-envelope"></i> Contact: psuesports@gmail.com</p>
 
       </div>
       
@@ -421,6 +428,16 @@
       </div>
       </div>
     </div>
+
+    <div id="policies">
+      <hr class="style-two">
+
+      <a href="https://copyright.psu.edu/psu-policy/" style="color:white">Copyright Policy</a> |
+      <a href="https://policy.psu.edu/policies/ad53" style="color:white">Privacy Policy</a> |
+      <a href="" style="color:white">Created by Rickie Cheng</a>
+      
+    </div>
+
 </section>
 
 
