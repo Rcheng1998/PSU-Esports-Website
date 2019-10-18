@@ -389,11 +389,37 @@ form {
     padding-top: 5%;
     padding-bottom: 5%;
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("imgs/aboutheader.jpg");
-    background-size: 100% 80%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
     height: 50%;
     width: 100%;
     color: white;
+}
+
+#eboard {
+    text-align: center;
+}
+
+#aboutus{
+    margin-bottom: 1.66%;
+}
+#eboard img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 1.66%;
+    border-radius: 15%;
+}
+
+#eboard-container{
+    margin-top: 3%;
+    line-height: 50%;
+}
+
+.eboard-title{
+    font-weight: 800;
+    padding-bottom: -1%;
+    letter-spacing: 2px;
 }
