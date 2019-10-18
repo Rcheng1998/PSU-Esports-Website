@@ -36,7 +36,6 @@ $("#backJersey").on({
 
  $("#blackTShirt").on({
     "mouseover" : function() {
-        console.log("here")
         $("#mainTShirt").attr('src','imgs/merch/Basic_Logo_Tee_BLACK_front.png');
      },
      "mouseout" : function() {
@@ -45,11 +44,38 @@ $("#backJersey").on({
  });
 
  $("#whiteTShirt").on({
+   "mouseover" : function() {
+       $("#mainTShirt").attr('src','imgs/merch/Basic_Logo_Tee_WHITE_front.png');
+    },
+    "mouseout" : function() {
+       $("#mainTShirt").attr('src','imgs/merch/Basic_Logo_Tee_BLUE_front.png');
+    }
+});
+
+
+ $("#blackTShirt2").on({
     "mouseover" : function() {
-        console.log("here")
-        $("#mainTShirt").attr('src','imgs/merch/Basic_Logo_Tee_WHITE_front.png');
+        $("#mainTShirt2").attr('src','imgs/merch/PENN_STATE_ESPORTS_Tee_BLACK_front.png');
      },
      "mouseout" : function() {
-        $("#mainTShirt").attr('src','imgs/merch/Basic_Logo_Tee_BLUE_front.png');
+        $("#mainTShirt2").attr('src','imgs/merch/PENN_STATE_ESPORTS_Tee_BLUE_front.png');
      }
  });
+
+ $("#whiteTShirt2").on({
+   "mouseover" : function() {
+       $("#mainTShirt2").attr('src','imgs/merch/PENN_STATE_ESPORTS_Tee_WHITE_front.png');
+    },
+    "mouseout" : function() {
+       $("#mainTShirt2").attr('src','imgs/merch/PENN_STATE_ESPORTS_Tee_BLUE_front.png');
+    }
+});
+
+$("#greyTShirt2").on({
+   "mouseover" : function() {
+       $("#mainTShirt2").attr('src','imgs/merch/PENN_STATE_ESPORTS_Tee_GREY_front.png');
+    },
+    "mouseout" : function() {
+       $("#mainTShirt2").attr('src','imgs/merch/PENN_STATE_ESPORTS_Tee_BLUE_front.png');
+    }
+});

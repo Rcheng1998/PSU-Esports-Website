@@ -306,7 +306,6 @@ hr.style-two {
 }
 
 #logosrow{
-    border: 1px solid #ccc;
     text-align: center;
 }
 
@@ -435,7 +434,6 @@ textarea{
     color: white;
 }
 
-<<<<<<< HEAD
 #eboard {
     text-align: center;
 }
@@ -460,12 +458,13 @@ textarea{
     font-weight: 800;
     padding-bottom: -1%;
     letter-spacing: 2px;
-=======
+}
 /* ------------ CSS of about.html -------------- */
 
 #merchPic{
     margin-top: 1.66%;
 }
+
 #merchPic img{
     float: left;
     width: 250px;
@@ -490,5 +489,4 @@ textarea{
     display: block;
     margin-left: auto;
     margin-right: auto;
->>>>>>> 442ce236a51268f099041ac47b3d0a9d66497a7c
 }
