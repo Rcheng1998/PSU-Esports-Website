@@ -208,6 +208,10 @@ body h4{
     margin-top: 1.5%;
 }
 
+#footer a{
+    color: white;
+}
+
 #footer img{
     height: 60px;
     display: inline-block;
@@ -307,6 +311,7 @@ hr.style-two {
 
 #logosrow{
     text-align: center;
+    margin-top: 1%;
 }
 
 #sublogos img{
@@ -317,6 +322,10 @@ hr.style-two {
     margin: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: transform .1s;
+}
+
+#sub-footer-divisions{
+    margin-top: 25%;
 }
 
 #sublogos img:hover{
@@ -341,7 +350,12 @@ hr.style-two {
     margin-right: auto;
     -webkit-box-shadow: 0 7px 4px #777;
 	-moz-box-shadow: 0 7px 4px #777;
-	box-shadow: 0 7px 4px #777;
+    box-shadow: 0 7px 4px #777;
+    transition: all .2s ease-in-out;
+}
+
+#fallevent img:hover{
+    transform: scale(1.1);
 }
 
 .jumbotron{
