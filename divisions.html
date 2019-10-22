@@ -14,7 +14,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="app.css">
 
-    <script src="js/Script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="divisions.css">
 
     <title>PSU Divisions</title>
   </head>
@@ -63,19 +63,19 @@
          <div class="container">
              <div id="logosrow" class="row">
                 <div id="sublogos" class="col-lg-12">
-                        <a href="#" onclick="divVisibility('Div1');"><img src="imgs/subFNlogo.jpg"></a> | 
-                        <a href="#" onclick="divVisibility('Div2');"><img src="imgs/subR6logo.png"></a> | 
-                        <a href="#" onclick="divVisibility('Div3');"><img src="imgs/subRLlogo.jpg"></a> | 
-                        <a href="#" onclick="divVisibility('Div4');"><img src="imgs/subCODlogo.png"></a> |
-                        <a href="#" onclick="divVisibility('Div5');"><img src="imgs/subsflogo.png"></a> |
-                        <a href="#" onclick="divVisibility('Div6');"><img src="imgs/subowlogo.png"></a> |
-                        <a href="#" onclick="divVisibility('Div7');"><img src="imgs/subdotalogo.jpg"></a> |
-                        <a href="#" onclick="divVisibility('Div8');"><img src="imgs/subcsgologo.png"></a> |
-                        <a href="#" onclick="divVisibility('Div9');"><img src="imgs/subwowlogo.png"></a> |
-                        <a href="#" onclick="divVisibility('Div10');"><img src="imgs/subosulogo.jpg"></a> |
-                        <a href="#" onclick="divVisibility('Div11');"><img src="imgs/subhotslogo.jpg"></a> |
-                        <a href="#" onclick="divVisibility('Div12');"><img src="imgs/submclogo.jpg"></a> |
-                        <a href="#" onclick="divVisibility('Div13');"><img src="imgs/subhslogo.png"></a>
+                        <a href="#" id="tab1" class="link"><img src="imgs/subFNlogo.jpg"></a> | 
+                        <a href="#" id="tab2" class="link"><img src="imgs/subR6logo.png"></a> | 
+                        <a href="#" id="tab3" class="link"><img src="imgs/subRLlogo.jpg"></a> | 
+                        <a href="#" id="tab4" class="link"><img src="imgs/subCODlogo.png"></a> |
+                        <a href="#" id="tab5" class="link"><img src="imgs/subsflogo.png"></a> |
+                        <a href="#" id="tab6" class="link"><img src="imgs/subowlogo.png"></a> |
+                        <a href="#" id="tab7" class="link"><img src="imgs/subdotalogo.jpg"></a> |
+                        <a href="#" id="tab8" class="link"><img src="imgs/subcsgologo.png"></a> |
+                        <a href="#" id="tab9" class="link"><img src="imgs/subwowlogo.png"></a> |
+                        <a href="#" id="tab10" class="link"><img src="imgs/subosulogo.jpg"></a> |
+                        <a href="#" id="tab11" class="link"><img src="imgs/subhotslogo.jpg"></a> |
+                        <a href="#" id="tab12" class="link"><img src="imgs/submclogo.jpg"></a> |
+                        <a href="#" id="tab13" class="link"><img src="imgs/subhslogo.png"></a>
                 </div>
              </div>
          </div>
@@ -83,7 +83,7 @@
     </div>
     <br>
     <div class="inner_div">
-                <div id="Div1">
+                <div id="tab1show" class="tab-content">
                         <div class="container">
                                 <div class="row">
                                     <div class="col-sm-8">
@@ -102,7 +102,7 @@
                                 </div>
                             </div>
                 </div>
-                <div id="Div2" style="display: none;">
+                <div id="tab2show" class="tab-content">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-8">
@@ -122,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="Div3" style="display: none;">   
+                <div id="tab3show" class="tab-content">   
                   <div class="container">
                     <div class="row">
                         <div class="col-sm-8">
@@ -141,7 +141,7 @@
                     </div>
                   </div>
                 </div>
-                <div id="Div4" style="display: none;">                  
+                <div id="tab4show" class="tab-content">                  
                   <div class="container">
                     <div class="row">
                         <div class="col-sm-8">
@@ -160,7 +160,7 @@
                     </div>
                   </div>
                 </div>
-                <div id="Div5" style="display: none;">                 
+                <div id="tab5show" class="tab-content">                 
                    <div class="container">
                     <div class="row">
                         <div class="col-sm-8">
@@ -179,7 +179,7 @@
                     </div>
                   </div>
                 </div>
-                <div id="Div6" style="display: none;">                 
+                <div id="tab6show" class="tab-content">                 
                     <div class="container">
                      <div class="row">
                          <div class="col-sm-8">
@@ -198,7 +198,7 @@
                      </div>
                    </div>
                  </div>
-                 <div id="Div7" style="display: none;">                 
+                 <div id="tab7show" class="tab-content">                 
                     <div class="container">
                      <div class="row">
                          <div class="col-sm-8">
@@ -217,7 +217,7 @@
                      </div>
                    </div>
                  </div>
-                 <div id="Div8" style="display: none;">                 
+                 <div id="tab8show" class="tab-content">                 
                     <div class="container">
                      <div class="row">
                          <div class="col-sm-8">
@@ -236,7 +236,7 @@
                      </div>
                    </div>
                  </div>
-                 <div id="Div9" style="display: none;">                 
+                 <div id="tab9show" class="tab-content">                 
                     <div class="container">
                      <div class="row">
                          <div class="col-sm-8">
@@ -255,7 +255,7 @@
                      </div>
                    </div>
                  </div>
-                 <div id="Div10" style="display: none;">                 
+                 <div id="tab10show" class="tab-content">                 
                     <div class="container">
                      <div class="row">
                          <div class="col-sm-8">
@@ -274,7 +274,7 @@
                      </div>
                    </div>
                  </div>
-                 <div id="Div11" style="display: none;">                 
+                 <div id="tab11show" class="tab-content">                 
                     <div class="container">
                      <div class="row">
                          <div class="col-sm-8">
@@ -293,7 +293,7 @@
                      </div>
                    </div>
                  </div>
-                 <div id="Div12" style="display: none;">                 
+                 <div id="tab12show" class="tab-content">                 
                     <div class="container">
                      <div class="row">
                          <div class="col-sm-8">
@@ -312,7 +312,7 @@
                      </div>
                    </div>
                  </div>
-                 <div id="Div13" style="display: none;">                 
+                 <div id="tab13show" class="tab-content">                 
                     <div class="container">
                      <div class="row">
                          <div class="col-sm-8">
@@ -340,6 +340,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    
+    <script src="js/Script.js" type="text/javascript"></script>
   </body>
 </html>
