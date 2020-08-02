@@ -65,7 +65,7 @@ body h4{
 .landingpage img.landinglogo{
     z-index:105;
     height:45%;
-    width:20%;
+    width: 20%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -76,6 +76,16 @@ body h4{
     
 	animation: float 6s ease-in-out infinite;
 }
+
+@media (max-width: 1181px) {
+    .landingpage img.landinglogo {
+        width: auto ;
+        max-width: 50% ;
+        height: auto ;
+    }
+  }
+
+
 
 @keyframes float {
 	0% {
@@ -104,6 +114,14 @@ body h4{
     -ms-transform: translate(-50%, -50%); /* IE 9 */
     -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
 }
+
+@media (max-width: 1181px) {
+    .landingpage .landingclaw img {
+        width: auto ;
+        max-width: 50% ;
+        height: auto ;
+    }
+  }
 
 
 .landingpage .gamesDiv img{
