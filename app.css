@@ -1,6 +1,8 @@
 body{
     font-family: 'Raleway', sans-serif;
-    color: #47425d;
+    color: whitesmoke;
+    background-color: black;
+    background: url('imgs/black\ staryy\ backround.png') repeat;
 }
 
 body h4{
@@ -10,7 +12,7 @@ body h4{
 /* ------------ CSS of index.html -------------- */
 
 #psulogo{
-    max-width: 15%;
+    max-width: 10%;
 }
 
 .navbar.scrolled {
@@ -48,6 +50,74 @@ body h4{
     font-size: 1.5rem;
 }
 
+.landingpage{
+    height:100vh;
+    width: 100%;
+    background: url('imgs/black\ staryy\ backround.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 105;
+}
+
+.landingpage img.landinglogo{
+    z-index:105;
+    height:45%;
+    width:20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
+    border-radius: 50%;
+    
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translate(-50%, -50%);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translate(-50%, -55%);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translate(-50%, -50%);
+	}
+}
+
+.landingpage .landingclaw img{
+    z-index:-1;
+    height:70%;
+    width:50%;
+    position: absolute;
+    opacity: 0.3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
+}
+
+
+.landingpage .gamesDiv img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto; /* to keep proportions */
+    height: auto; /* to keep proportions */
+    max-width: 100%; /* not to stand out from div */
+    max-height: 100%; /* not to stand out from div */
+    margin: auto auto 0; /* position to bottom and center */
+}
 
 
 #events{
@@ -67,12 +137,36 @@ body h4{
     margin-top: 2%;
 }
 
+.header{
+    text-align:center;
+}
 
 #nav-bar{
     position: absolute;
     width: 100%;
     z-index: 10;
     max-width: 100%;
+}
+
+.executive img{
+    -webkit-box-shadow: 0px 0px 2px 4px #ebebf5;
+    -moz-box-shadow: 0px 0px 2px 4px #ebebf5;
+    box-shadow: 0px 1px 2px 2px #ebebf5; 
+}
+
+.executiveOutside img{
+    height: 230px;
+    width: 180px;
+}
+
+.executiveInside img{
+    height: 255px;
+    width: 180px;
+}
+
+.executiveMiddle img{
+    height: 280px;
+    width: 180px;
 }
 
 .carousel-item{
@@ -96,6 +190,7 @@ body h4{
 }
 
 #about-header{
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -103,6 +198,9 @@ body h4{
     padding-top: 1%;
     padding-bottom: 1%;
     background-color:rgba(35, 64, 109, .1);
+    background-image: url(imgs/black_staryy_backround.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #about-descripition{
@@ -149,12 +247,10 @@ body h4{
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
-    background-color: rgba(35, 64, 109, .1);
 }
 
 #sponsors{
-    background-color: rgba(35, 64, 109, .1);
-    margin-bottom: 5%;
+    padding-bottom: 5%;
     
 }
 #sponsors img{
@@ -167,20 +263,6 @@ body h4{
     transform: scale(1.1);
 }
 
-#tespa{
-    position: relative;
-    top: -5em;
-}
-
-#uconnect{
-    padding-left: 5%;
-    padding-top: 10%;
-}
-
-#sector6{
-    margin-left: 2%;
-    margin-top: 18%;
-}
 
 #social-header{
     text-align: center;
@@ -190,6 +272,7 @@ body h4{
 
 #social-test img{
     margin-top: 5%;
+    margin-bottom: 15%;
     height: 175px;
     width: 175px;
     max-width: 100%;
@@ -204,7 +287,7 @@ body h4{
 }
 
 #footer{
-    background-color: #23416dee;
+    background-color: #0f1b2eee;
     color: #ffffff;
     font-size: .8em;
     padding-top: 2%;
@@ -225,62 +308,30 @@ body h4{
     text-align: center;
 }
 
+.division img{
+    height: 250px;
+    width: 180px;
+    border-radius: 5%;
+}
 
-.flip-card {
-    background-color: transparent;
-    width: 172px;
-    height: 229px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
+.twitchPadding{
+    margin-bottom: 3%;
+}
+
+.divisionButton{
     text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-
-  .flip-card-back h1{
-      font-size: 1.5em;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
-    background-color: #293b69;
-    color: white;
-    transform: rotateY(180deg);
-  }
-
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 hr.style-one {
-    margin-bottom: -1%;
-    width: 20%;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0));
+    position: relative; 
+    width: 6%;
+    top: 10px; 
+    border: none; 
+    height: 8px; 
+    background: white; 
+    margin-bottom: 5%; 
+    
 }
 
 hr.style-two {
@@ -438,6 +489,12 @@ textarea{
     margin-top: 2%;
 }
 
+.bluetext{
+    margin-top: 4%;
+    font-weight: 700;
+    color: #779ecb;
+}
+
 .jumbotron-about{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -450,6 +507,8 @@ textarea{
     width: 100%;
     color: white;
 }
+
+
 
 #eboard {
     text-align: center;
