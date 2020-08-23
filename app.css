@@ -65,7 +65,7 @@ body h4{
 .landingpage img.landinglogo{
     z-index:105;
     height:45%;
-    width: 20%;
+    width: 25%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -213,6 +213,32 @@ body h4{
     height: 70px;
     width: 76px;
 }
+
+#collage{
+    align-content: center;
+    background-color: #08172A;
+}
+
+#collage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: auto;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 600px) {
+    #collage {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
 
 .parallax-window {
     min-height: 400px;
@@ -400,9 +426,14 @@ hr.style-two {
     transform: scale(1.1);
 }
 
+.tab-content strong{
+    color: #779ecb;
+
+}
+
 .inner_div img{
     max-width: 100%;
-    height: 400px;
+    width: 1080px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -541,14 +572,22 @@ textarea{
 }
 
 #eboard-container{
-    margin-top: 3%;
+    margin-top: 2%;
     line-height: 50%;
+    border-color: white;
+    border-radius: 10%;
+}
+
+#eboard-container img{
+    border: 1px solid white;
+    margin-bottom: 20px;
 }
 
 .eboard-title{
     font-weight: 800;
     padding-bottom: -1%;
     letter-spacing: 2px;
+    color: #779ecb;
 }
 /* ------------ CSS of about.html -------------- */
 
