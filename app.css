@@ -229,7 +229,7 @@ body h4{
     margin-top: 2%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 726px) {
     #collage {
       visibility: hidden;
       clear: both;
