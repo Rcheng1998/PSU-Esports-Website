@@ -74,7 +74,7 @@ body h4{
     -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
     border-radius: 50%;
     
-	animation: float 6s ease-in-out infinite;
+	animation: float 3s ease-in-out infinite;
 }
 
 @media (max-width: 1181px) {
